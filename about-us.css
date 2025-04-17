@@ -1,0 +1,125 @@
+body {
+    background-color: #f9fafa;
+    color: #333;
+}
+
+
+ nav{ 
+  font-family: 'Arial', sans-serif;
+    /* display: flex; 
+    justify-content: space-between;
+    background-color: #007BFF;
+    padding: 15px;
+     align-items: center;  */
+} 
+
+
+.hero-about {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('banner-health.jpg'); /* Optional image */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background: linear-gradient(to right, #007bff, #00c6ff); 
+    color: white; 
+    padding: 60px 0; 
+    text-align: center;
+    /* line-height: 1.; */
+}
+  
+/* About Us */
+.about-us {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0;
+    background-color: #e6f7ff;  /* Changed from #e8fffe */
+    text-align: center;
+}
+
+
+.about-us .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #007BFF;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: left;
+    padding: 10px 0;
+}
+/* consult CTA  */
+.consult-cta-section {
+    background: url('serivece-section.jpg') no-repeat center center/cover;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .consult-cta-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(20, 30, 121, 0.7); /* dark blue overlay */
+    z-index: 1;
+  }
+  
+  .consult-cta-section .container {
+    z-index: 2;
+  }
+  
+/* Cards */
+.card {
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    border-radius: 12px 12px 0 0;
+}
+
+/* Buttons */
+.btn {
+   
+    /* padding: 10px 20px; */
+    /* border-radius: 8px; */
+    transition: background-color 0.3s ease;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    /* margin-top: 30px; */
+}
+footer li a,
+footer p {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: small;
+}
+
+
+footer p:hover,
+footer li:hover {
+  /* color: #66b2ff; */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+  
